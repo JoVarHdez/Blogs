@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Blog Musical</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="javascript" src='js/bootstrap.min.js'></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <img src="img/logo.jpg" alt="Logo" class="mx-auto img-page">
+          </div>
+          <div class="col-push-4 col-4 d-flex justify-content-end align-items-center">
+            <a href="#"><img src="img/facebook.png" alt="Facebook" class="img-social img-fluid"></a>
+            <a href="#"><img src="img/youtube.png" alt="YouTube" class="img-social img-fluid"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram" class="img-social img-fluid"></a>
+            <a href="#"><img src="img/pinterest.png" alt="Pinterest" class="img-social img-fluid"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter" class="img-social img-fluid"></a>
+          </div>
+        </div>
+      </header>
+      <nav class="navbar navbar-expand-md navbar-dark mb-4">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Bandas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Top 10</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Letras</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Acordes</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container" role="main">
+        <div class="row">
+          <div class="col-md-12 col-lg-8 blog-main">
+            <div class="row blog-post">
+              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-justify">
+                <h2 class="text-capitalize texto blog-post-title">bethel music</h2>
+                <p class="texto">
+                  Bethel Music es un grupo de adoración estadounidense Redding, California, donde empezaron a hacer música en 2001, en la Iglesia Bethel. Se centran en la producción de canciones y álbumes de adoración que se escriben y se registran en gran parte por miembros de los diferentes artistas.
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 justify-content-center">
+                <img src="img/BM.jpg" alt="Bethel Logo" class="rounded img-fluid img-logo">
+              </div>
+            </div>
+            <div class="media pt-3 row">
+              <img src="img/comentario.jpg" alt="Comentario" class="imagen-comentario img-fluid rounded">
+              <textarea class="form-control media-body" placeholder="Comentario..." id="comentario_publi#1" name="comentario" rows="1"></textarea>
+            </div>
+            <div class="blog-post row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center">
+                <img src="img/HU.jpg" alt="Bethel Logo" class="rounded img-fluid img-logo">
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-justify">
+                <h2 class="text-capitalize texto blog-post-title">hillsong united</h2>
+                <p class="texto">
+                  Hillsong United (estilizado como Hillsong UNITED o UNITED) es una banda de adoración que se originó como parte de Hillsong Church. Formada en 1998 como parte del ministerio juvenil de Hillsong, la banda se compone de varios líderes de adoración rotativos de la iglesia, incluidos Brooke Fraser, Joel Houston, Reuben Morgan y Marty Sampson. La banda compone canciones y se presenta en los servicios de la iglesia, así como conciertos en giras mundiales.
+                  </p>
+              </div>
+            </div>
+            <div class="media pt-3 row">
+              <img src="img/comentario.jpg" alt="Comentario" class="imagen-comentario img-fluid rounded">
+              <textarea class="form-control media-body" placeholder="Comentario..." id="comentario_publi#1" name="comentario" rows="1"></textarea>
+            </div>
+          </div>
+          <aside class="col-lg-4 blog-sidebar">
+            <div class="row p-0">
+              <div class="col-lg-12">
+                <form class="form-inline" action="index.html" method="search">
+                  <input type="search" name="buscador" placeholder="Buscar..." class="form-control">
+                </form>
+                <ol class="list-unstyled text-capitalize">
+                  <li class="lista"><a href="#">united pursuit</a></li>
+                  <li class="lista"><a href="#">hillsong worship</a></li>
+                  <li class="lista"><a href="#">gungor</a></li>
+                  <li class="lista"><a href="#">will reagan</a></li>
+                  <li class="lista"><a href="#">marcos brunet</a></li>
+                  <li class="lista"><a href="#">israel houghton</a></li>
+                  <li class="lista"><a href="#">fuego</a></li>
+                  <li class="lista"><a href="#">rojo</a></li>
+                  <li class="lista"><a href="#" class="text-uppercase">twice</a></li>
+                </ol>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
