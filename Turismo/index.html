@@ -4,15 +4,136 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen,projection">
     <title>Red Social PP</title>
   </head>
   <body>
-    <nav>
-      
+    <nav class="light-green darken-2" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container"> <img src="img/logo.jpg" alt="Logo" id="logo" class="responsive-img"></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active"><a href="index.html"><i class="material-icons left">home</i>Inicio</a></li>
+          <li><a href="#"><i class="material-icons left">location_on</i>Estuve En...</a></li>
+          <li><a href="#"><i class="material-icons left">star</i>Mejores Viajes</a></li>
+          <li><a href="#"><i class="material-icons left">chat_bubble</i>Recomendaciones</a></li>
+        </ul>
+        <ul class="sidenav" id="nav-mobile">
+          <li class="active"><a href="index.html"><i class="material-icons left">home</i>Inicio</a></li>
+          <li><a href="#"><i class="material-icons left">location_on</i>Estuve En...</a></li>
+          <li><a href="#"><i class="material-icons left">star</i>Mejores Viajes</a></li>
+          <li><a href="#"><i class="material-icons left">chat_bubble</i>Recomendaciones</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons left">menu</i></a>
+      </div>
     </nav>
+    <div class="row light-green darken-4 white-text center">
+      <span>¡Aventuras al Natural! Mis mejores experiencias de lo que una vez fue desconocido</span>
+    </div>
+    <div class="icon-bar hide-on-small-only">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="google"><i class="fa fa-google"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+    <div class="section row">
+      <div class=" col l10 offset-l2 s11 green lighten-3" id="contenedor-imgs">
+        <div class="col m4 s12">
+          <div class="row">
+            <img src="img/img2.jpg" alt="Atardecer" class="responsive-img imagen">
+          </div>
+          <div class="row">
+            <img src="img/img1.jpg" alt="Atardecer 2" class="responsive-img imagen">
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <img src="img/img3.jpg" alt="Mono Cariblanco" class="responsive-img imagen-center">
+        </div>
+        <div class="col m4 s12">
+          <div class="row">
+            <img src="img/img4.jpg" alt="Ujarrás" class="responsive-img imagen">
+          </div>
+          <div class="row">
+            <img src="img/img5.jpg" alt="Termales" class="responsive-img imagen">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="light-green darken-4 col l6 m6 push-l1 push-m1">
+        <div class="card">
+        <h4  id="style-text">Pizza República</h4>
+        <small><i class="small material-icons left">today</i>26/09/2016 | Pizza República, Costa Rica</small>
+        <div class="row" id="entry-pub">
+          <div class="col l4 m12 s12">
+            <img src="img/img6.jpg" class="responsive-img">
+          </div>
+          <div class="col l8 m12 s12">
+            <p>Excelente lugar ubicado en Santa Ana, para ir a disfrutar de comida italiana, con increíble vista hacia la ciudad de San José.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l1">
+            <img src="img/user.png" id="user">
+          </div>
+          <div class="col l9 m8 s8">
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <input placeholder="Comentario..." id="first_name2" type="text" class="validate">
+                <label class="active" for="first_name2">Comentar:</label>
+              </div>
+            </div>
+          </div>
+          <div class="col l2 s1">
+            <a class="btn-floating btn-large waves-effect waves-light light-green darken-4"><i class="material-icons">add</i></a>
+              </div>
+        </div>
+        </div>
+      </div>
+      <div class="light-green darken-4 col l3 m3 push-l2 push-m2">
+        <div class="card">
+          <img src="img/me.png" class="responsive-img circle center-align" id="perfil-img">
+        <h5 class="center-align">Perfil del Autor</h5>
+        <div id="perfil">
+          <h6><strong>Nombre: </strong>Dilier Zúñiga</h6>
+          <h6><strong>Lugar: </strong>Costa Rica</h6>
+          <p class="center-align">Creado con el proposito de poder compartir mis aventuras y al mismo tiempo dar opciones a personas que deseen viajar y disfrutar de algun lugar, teniendo buenas opciones de lugares turisticos y además algunos tips de viaje, entre otras cosas importantes a considerar.</p>
+          <strong>Contácto:</strong><h6 class="truncate">dilier@hotmail.com</h6>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="section container light-green darken-4">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col l5 offset-l1 m5 offset-m1 s12 white-text">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Nombre</label>
+          </div>
+          <div class="input-field col l5 m6 s12 white-text">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s10 offset-s1 white-text">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Comentario</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l2 offset-l5 m12 offset-m3">
+            <button class="btn light-green lighten-1" type="submit" name="action">Enviar
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/my.js"></script>
   </body>
 </html>
